@@ -1,0 +1,10 @@
+$mainFont: "Lato", sans-serif;
+$imageWay: "../img";
+$mainPink: #f16d7f;
+$greyBorder: 1px solid #e6e6e6;
+$fontColor: #222222;
+
+%flex {
+  display: flex;
+  align-items: center;
+}
