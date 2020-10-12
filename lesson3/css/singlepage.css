@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.arrivals-wrap, .women, .description, .description__topbox-border, .description__bottombox-option, .description__bottombox button {
+  display: flex;
+  align-items: center; }
+
+.arrivals {
+  height: 150px;
+  background: #f8f3f4; }
+  .arrivals-wrap {
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: inherit; }
+  .arrivals-title {
+    margin: 0;
+    font-weight: 900;
+    color: #f16d7f; }
+  .arrivals-nav a {
+    text-decoration: none;
+    color: #636363; }
+    .arrivals-nav a:hover {
+      color: #f16d7f; }
+    .arrivals-nav a:last-child {
+      font-weight: 700;
+      color: #f16d7f; }
+
+.women {
+  height: 777px;
+  background: url(../img/womenOnTable.jpg) no-repeat center;
+  background-color: #f7f7f7;
+  justify-content: space-between; }
+  .women-arrows {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+    border: none;
+    cursor: pointer; }
+    .women-arrows i {
+      color: white; }
+    .women-arrows:hover {
+      border: 1px solid gray; }
+
+.description {
+  margin-top: -70px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  height: 730px;
+  justify-content: center;
+  flex-direction: column; }
+  .description__topbox {
+    width: 618px;
+    height: 380px;
+    border-bottom: 1px solid #eaeaea; }
+    .description__topbox-subtitle {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #f16d7f;
+      text-align: center; }
+    .description__topbox-border {
+      justify-content: center; }
+      .description__topbox-border div:not(:nth-child(2)) {
+        height: 1px;
+        width: 42px;
+        background-color: #eaeaea; }
+      .description__topbox-border div:nth-child(2) {
+        height: 3px;
+        width: 63px;
+        background-color: #f16d7f; }
+    .description__topbox-title {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-align: center;
+      color: #222222; }
+    .description__topbox-text {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #5e5e5e;
+      text-align: center;
+      margin-top: 67px;
+      margin-bottom: 28px; }
+    .description__topbox-info {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 37px; }
+      .description__topbox-info div {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #b9b9b9; }
+        .description__topbox-info div span {
+          color: #222222; }
+      .description__topbox-info div:first-child {
+        margin-right: 44px; }
+    .description__topbox-price {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #f16d7f;
+      text-align: center; }
+  .description__bottombox {
+    width: 538px;
+    margin-top: 63px; }
+    .description__bottombox-option {
+      justify-content: space-between; }
+      .description__bottombox-option h3 {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #222222; }
+      .description__bottombox-option select,
+      .description__bottombox-option input {
+        width: 144px;
+        height: 35px;
+        border: 1px solid #eaeaea; }
+    .description__bottombox button {
+      margin-top: 28px;
+      width: 537px;
+      height: 55px;
+      background-color: #ffffff;
+      border: 1px solid #f16d7f;
+      justify-content: center;
+      color: #f16d7f;
+      cursor: pointer; }
+      .description__bottombox button img {
+        margin-right: 15px; }
+
+.like {
+  margin-top: 100px;
+  height: 453px; }
+  .like-title {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center; }
+  .like__box {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; }
+    .like__box-product a {
+      text-decoration: none; }
+      .like__box-product a h3 {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #6f6e6e;
+        margin-left: 14px; }
+      .like__box-product a p {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #f16d7f;
+        margin-left: 14px; }
+
+/*# sourceMappingURL=singlepage.css.map */

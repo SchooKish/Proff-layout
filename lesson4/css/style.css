@@ -1,0 +1,333 @@
+/**********PROMO*******************/
+
+.promo {
+  height: 614px;
+  background-color: #e8e8e8;
+}
+
+.promo .container {
+  height: inherit;
+  background: url(/img/mainman.jpg) no-repeat top 0 center;
+  display: flex;
+  align-items: center;
+}
+
+.promo__text {
+  height: 92px;
+  border-left: 12px solid #f16d7f;
+  padding-left: 12px;
+  font-weight: 900;
+}
+
+.promo__text-top {
+  font-size: 60px;
+  line-height: 0.68;
+
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+
+.promo__text-bottom {
+  font-size: 40px;
+  margin-top: 11.3px;
+}
+
+.promo__text-bottom span {
+  color: #f16d7f;
+}
+
+/*****************OFFERS******************/
+
+.offers .container {
+  margin-top: 98px;
+  height: 823px;
+  position: relative;
+}
+
+.offers__1 {
+  width: 560px;
+  height: 542px;
+  background: url(/img/man.jpg) no-repeat;
+}
+
+.offers__2 {
+  margin-top: 20px;
+  width: 560px;
+  height: 261px;
+  background: url(/img/purse.jpg) no-repeat;
+}
+
+.offers__3 {
+  width: 560px;
+  height: 261px;
+  background: url(/img/women.jpg) no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.offers__4 {
+  width: 560px;
+  height: 542px;
+  background: url(/img/kid.jpg) no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.offers__label {
+  padding: 16px 20px;
+  background: white;
+  display: inline-block;
+  margin-top: 26px;
+  font-weight: 900;
+}
+
+.offers__label-top {
+  font-size: 18px;
+  line-height: 1.2;
+
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+
+.offers__label-bottom {
+  font-size: 30px;
+  color: #f16d7f;
+}
+
+/************PRODUCTS************/
+
+.products {
+  height: 982px;
+  margin-top: 100px;
+}
+
+.products-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #222222;
+  margin: 0;
+  text-align: center;
+}
+
+.products-text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #9f9f9f;
+  text-align: center;
+  margin: 0;
+}
+
+.products__box {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.boxitem {
+  width: 261px;
+  height: 364px;
+}
+
+.boxitem:hover {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.boxitem:nth-child(n + 5) {
+  margin-top: 27px;
+}
+
+.boxitem__hover {
+  height: 280px;
+  position: relative;
+}
+
+.boxitem__hover-wrap {
+  height: inherit;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+}
+
+.boxitem:hover .boxitem__hover-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxitem-button {
+  padding: 15px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.boxitem-button img {
+  margin-right: 10px;
+}
+
+.products__item-img {
+  width: 100%;
+  display: block;
+  height: inherit;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.products__label {
+  padding: 15px;
+}
+
+.products__label-top {
+  margin-bottom: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  max-height: 2.4em;
+  overflow: hidden;
+}
+
+.products__label-bottom {
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.products-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 212px;
+  height: 48px;
+  background-color: #f16d7f;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  border: none;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.products-button:active {
+  border: none;
+}
+
+.products-button i {
+  color: #fff;
+  margin-left: 9px;
+}
+
+/***********DISCOUNT*************/
+
+.discount {
+  height: 529px;
+  margin-top: 113px;
+}
+
+.discount-wrap {
+  display: flex;
+}
+
+.discount__women {
+  height: 529px;
+  width: 767px;
+  background: url(/img/snow.jpg) no-repeat;
+}
+
+.discount__women-label {
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 146px;
+  margin-left: 39px;
+}
+
+.discount__label-top {
+  font-size: 53.7px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+
+.discount__label-top span {
+  color: #f16d7f;
+}
+
+.discount__label-botton {
+  font-size: 32.2px;
+}
+
+.discount__offers {
+  position: relative;
+  height: 529px;
+  width: 373px;
+  background-color: #222224;
+  padding-left: 114px;
+}
+
+.discount___offers-wrap {
+  width: 220px;
+}
+
+.discount__offers-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
+
+.title1 {
+  margin-top: 50px;
+}
+
+.title2 {
+  margin-top: 55px;
+}
+
+.title3 {
+  margin-top: 55px;
+}
+
+.discount__offers-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+
+  margin-top: 17px;
+}
+
+.title1::before {
+  content: url(/img/car.svg);
+  position: absolute;
+  left: 36px;
+}
+
+.title2::before {
+  content: url(/img/discount.svg);
+  position: absolute;
+  left: 36px;
+}
+
+.title3::before {
+  content: url(/img/crown.svg);
+  position: absolute;
+  left: 36px;
+}
