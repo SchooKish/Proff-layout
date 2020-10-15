@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import "variables";
+
+//***********ARRIVALS
+
+.arrivals {
+  height: 150px;
+  background: #f8f3f4;
+  &-wrap {
+    @extend %flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: inherit;
+  }
+  &-title {
+    margin: 0;
+    font-weight: 900;
+    color: $mainPink;
+  }
+  &-nav {
+    a {
+      text-decoration: none;
+      color: #636363;
+      &:hover {
+        color: $mainPink;
+      }
+      &:last-child {
+        font-weight: 700;
+        color: $mainPink;
+      }
+    }
+  }
+}
+
+//*************WOMEN
+
+.women {
+  height: 777px;
+  background: url(#{$imageWay}/womenOnTable.jpg) no-repeat center;
+  background-color: #f7f7f7;
+  @extend %flex;
+  justify-content: space-between;
+  &-arrows {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.14);
+    border: none;
+    cursor: pointer;
+    i {
+      color: white;
+    }
+    &:hover {
+      border: 1px solid lighten(#000, 50%);
+    }
+  }
+}
+
+//******DESCRIPTION
+
+.description {
+  margin-top: -70px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  height: 730px;
+  @extend %flex;
+  justify-content: center;
+  flex-direction: column;
+  &__topbox {
+    width: 618px;
+    height: 380px;
+    border-bottom: 1px solid #eaeaea;
+    &-subtitle {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 700;
+      color: $mainPink;
+      text-align: center;
+    }
+    &-border {
+      @extend %flex;
+      justify-content: center;
+      & div:not(:nth-child(2)) {
+        height: 1px;
+        width: 42px;
+        background-color: #eaeaea;
+      }
+      & div:nth-child(2) {
+        height: 3px;
+        width: 63px;
+        background-color: $mainPink;
+      }
+    }
+    &-title {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-align: center;
+      color: $fontColor;
+    }
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #5e5e5e;
+      text-align: center;
+      margin-top: 67px;
+      margin-bottom: 28px;
+    }
+    &-info {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 37px;
+      & div {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #b9b9b9;
+        & span {
+          color: $fontColor;
+        }
+      }
+      & div:first-child {
+        margin-right: 44px;
+      }
+    }
+    &-price {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 700;
+      color: $mainPink;
+      text-align: center;
+    }
+  }
+  &__bottombox {
+    width: 538px;
+    margin-top: 63px;
+    &-option {
+      @extend %flex;
+      justify-content: space-between;
+      & h3 {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        color: $fontColor;
+      }
+      & select,
+      input {
+        width: 144px;
+        height: 35px;
+        border: 1px solid #eaeaea;
+      }
+    }
+    & button {
+      margin-top: 28px;
+      width: 537px;
+      height: 55px;
+      background-color: #ffffff;
+      border: 1px solid $mainPink;
+      @extend %flex;
+      justify-content: center;
+      color: $mainPink;
+      cursor: pointer;
+      & img {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+//*********LIKE
+
+.like {
+  margin-top: 100px;
+  height: 453px;
+  &-title {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $fontColor;
+    text-align: center;
+  }
+  &__box {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    &-product {
+      & a {
+        text-decoration: none;
+        & h3 {
+          font-size: 14px;
+          line-height: 1.2;
+          font-weight: 400;
+          text-transform: uppercase;
+          color: #6f6e6e;
+          margin-left: 14px;
+        }
+        & p {
+          font-size: 16px;
+          line-height: 1.2;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: $mainPink;
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+}
