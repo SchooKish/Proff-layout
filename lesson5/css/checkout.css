@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+.checkout {
+  margin-top: 90px;
+  padding-bottom: 90px; }
+  .checkout__drop {
+    padding-bottom: 33px;
+    border-bottom: 1px solid #e8e8e8; }
+    .checkout__drop:not(:first-child) {
+      margin-top: 33px; }
+    .checkout__drop summary:focus {
+      outline: none; }
+    .checkout__drop summary span {
+      position: relative;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #222222; }
+      .checkout__drop summary span:hover {
+        color: #f16d7f; }
+      .checkout__drop summary span::before {
+        content: '';
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        background-color: #fff;
+        left: -22px;
+        top: 4px; }
+    .checkout__drop-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 39px;
+      padding-bottom: 50px; }
+    .checkout__drop-leftwrap {
+      padding: 0 35px; }
+      @media (max-width: 992px) {
+        .checkout__drop-leftwrap {
+          margin-bottom: 50px; } }
+      .checkout__drop-leftwrap-form h3 {
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222; }
+      .checkout__drop-leftwrap-form-grey {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #b3b2b2; }
+      .checkout__drop-leftwrap-form .m1 {
+        margin-bottom: 30px; }
+      .checkout__drop-leftwrap-form .m2 {
+        margin-bottom: 33px; }
+      .checkout__drop-leftwrap-form .m3 {
+        margin-bottom: 15px; }
+      .checkout__drop-leftwrap-form-black {
+        margin-top: 34px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222; }
+      .checkout__drop-leftwrap-form label {
+        font-size: 12px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222; }
+      .checkout__drop-leftwrap-form button {
+        margin-top: 38px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4a4a4a;
+        width: 180px;
+        height: 50px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea; }
+      .checkout__drop-leftwrap-form #radio1,
+      .checkout__drop-leftwrap-form #radio2 {
+        display: none; }
+      .checkout__drop-leftwrap-form label[for="radio1"],
+      .checkout__drop-leftwrap-form label[for="radio2"] {
+        display: block;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        background: url(../img/regEmpty.png) no-repeat left center; }
+      .checkout__drop-leftwrap-form #radio1:checked + label,
+      .checkout__drop-leftwrap-form #radio2:checked + label {
+        background: url(../img/regChecked.png) no-repeat left center; }
+    .checkout__drop-rightwrap {
+      padding: 0 35px; }
+      .checkout__drop-rightwrap-form h3 {
+        font-size: 13px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222; }
+      .checkout__drop-rightwrap-form-grey {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #b3b2b2;
+        margin-bottom: 27px; }
+      .checkout__drop-rightwrap-form-red {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #ff0d0d; }
+      .checkout__drop-rightwrap-form label {
+        display: block; }
+        .checkout__drop-rightwrap-form label span {
+          font-size: 17px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #ff0d0d; }
+      .checkout__drop-rightwrap-form input {
+        width: 390px;
+        height: 45px;
+        margin-bottom: 23px; }
+        @media (max-width: 500px) {
+          .checkout__drop-rightwrap-form input {
+            width: auto; } }
+      .checkout__drop-rightwrap-form button {
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4a4a4a;
+        width: 180px;
+        height: 50px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea; }
+      .checkout__drop-rightwrap-form a {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #222222;
+        text-decoration: none;
+        margin-left: 32px; }
+        @media (max-width: 427px) {
+          .checkout__drop-rightwrap-form a {
+            display: block;
+            margin-top: 20px; } }
+
+/*# sourceMappingURL=checkout.css.map */
