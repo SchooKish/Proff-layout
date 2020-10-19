@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/template.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header-logo">BRAN<span>D</span></div>
+        <form class="header__form" action="#">
+          <div class="header__form-browse">
+            Browse<i class="fas fa-caret-down"></i>
+          </div>
+          <input type="text" placeholder="Search fo item..." /><button>
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <img src="img/cart.svg" alt="" class="header-cart" /><button
+          class="header-btn"
+        >
+          My Account <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+    <nav class="topnav">
+      <a href="#">Home</a><a href="#">Man</a><a href="#">Women</a
+      ><a href="#">Kids</a><a href="#">Accoseries</a><a href="#">Featured</a
+      ><a href="#">Hot Deals</a>
+    </nav>
+    <div class="arrivals">
+      <div class="container">
+        <h1>New Arrivals</h1>
+        <nav>
+          <a href="#">Home</a><span>/</span><a href="#">Men</a><span>/</span
+          ><a href="#">New arrivals</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="checkout">
+        <div class="container">
+            <details class="checkout__drop">
+              <summary>
+                <span>01.  Shipping Adress</span>
+              </summary>
+              <div class="checkout__drop-wrap">
+                <div class="checkout__drop-leftwrap">
+                  <form action="" class="checkout__drop-leftwrap-form">
+                    <h3>Check as a guest or register</h3>
+                    <div class="checkout__drop-leftwrap-form-grey m1">Register with us for future convenience</div>
+                    <input type="radio" id="radio1">
+                    <label for="radio1">checkout as guest</label>
+                    <input type="radio" id="radio2">
+                    <label for="radio2">register</label>
+                    <div class="checkout__drop-leftwrap-form-black">register and save time!</div>
+                    <div class="checkout__drop-leftwrap-form-grey m2">Register with us for future convenience</div>
+                    <div class="checkout__drop-leftwrap-form-grey m3"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</div>
+                    <div class="checkout__drop-leftwrap-form-grey"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</div>
+                    <button>Continue</button>
+                  </form>
+                </div>
+                <div class="checkout__drop-rightwrap">
+                  <form action="" class="checkout__drop-rightwrap-form">
+                    <h3>Already registed?</h3>
+                    <div class="checkout__drop-rightwrap-form-grey">Please log in below</div>
+                    <label for="mail">EMAIL ADDRESS <span>*</span></label>
+                    <input type="email" id="mail" required>
+                    <label for="password">PASSWORD <span>*</span></label>
+                    <input type="password" id="password" required>
+                    <div class="checkout__drop-rightwrap-form-red">* Required Fileds</div>
+                    <button>Log in</button>
+                    <a href="#">Forgot Password ?</a>
+                  </form>
+                </div>
+              </div>
+            </details>
+            <details class="checkout__drop">
+              <summary>
+                <span>02.  BILLING INFORMATION</span>
+              </summary>
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quas sint cum recusandae? Reprehenderit assumenda officia nostrum voluptate debitis earum.</div>
+            </details>
+            <details class="checkout__drop">
+              <summary>
+                <span>03.  SHIPPING INFORMATION</span>
+              </summary>
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quas sint cum recusandae? Reprehenderit assumenda officia nostrum voluptate debitis earum.</div>
+            </details>
+            <details class="checkout__drop">
+              <summary>
+                <span>04.  SHIPPING METHOD</span>
+              </summary>
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quas sint cum recusandae? Reprehenderit assumenda officia nostrum voluptate debitis earum.</div>
+            </details>
+            <details class="checkout__drop">
+              <summary>
+                <span>05.  PAYMENT METHOD</span>
+              </summary>
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quas sint cum recusandae? Reprehenderit assumenda officia nostrum voluptate debitis earum.</div>
+            </details>
+            <details class="checkout__drop">
+              <summary>
+                <span>06.  ORDER REVIEW</span>
+              </summary>
+              <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quas sint cum recusandae? Reprehenderit assumenda officia nostrum voluptate debitis earum.</div>
+            </details>
+            
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="container">
+          <div class="subscribe__left">
+            <div class="subscribe__left-img">
+              <img src="img/face.png" alt="" />
+            </div>
+            <div class="subscribe__left-wraptext">
+              <blockquote class="subscribe__left-text">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque sed
+                pretium”
+              </blockquote>
+              <div class="subscribe__left-name">Bin Burhan</div>
+              <div class="subscribe__left-from">Dhaka, Bd</div>
+              <div class="subscribe__left-switch">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+            <div class="subscribe__midle"></div>
+            <div class="subscribe__right">
+              <form action="" class="subscribe__right-form">
+                <div class="subscribe__right-title">Subscribe</div>
+                <div class="subscribe__right-text">FOR OUR NEWLETTER AND PROMOTION</div>
+                <input type="text" placeholder="Enter Your Email" />
+                <button>Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__brand">
+            <div class="header-logo">BRAN<span>D</span></div>
+            <p class="footer__brand-text1">
+              Objectively transition extensive data rather than cross functional
+              solutions. Monotonectally syndicate multidisciplinary materials before
+              go forward benefits. Intrinsicly syndicate an expanded array of
+              processes and cross-unit partnerships.
+            </p>
+            <p class="footer__brand-text2">
+              Efficiently plagiarize 24/365 action items and focused infomediaries.
+              Distinctively seize superior initiatives for wireless technologies.
+              Dynamically optimize.
+            </p>
+          </div>
+          <section class="footer__column">
+            <h2 class="footer__column-title">COMPANY</h2>
+            <nav>
+              <a href="#" class="footer__column-href">Home</a>
+              <a href="#" class="footer__column-href">Shop</a>
+              <a href="#" class="footer__column-href">About</a>
+              <a href="#" class="footer__column-href">How it Works</a>
+              <a href="#" class="footer__column-href">Contact</a>
+            </nav>
+          </section>
+          <section class="footer__column">
+            <h2 class="footer__column-title">INFORMATION</h2>
+            <nav>
+              <a href="#" class="footer__column-href">Tearms & Condition</a>
+              <a href="#" class="footer__column-href">Privacy Policy</a>
+              <a href="#" class="footer__column-href">How to Buy</a>
+              <a href="#" class="footer__column-href">How to Sell</a>
+              <a href="#" class="footer__column-href">Promotion</a>
+            </nav>
+          </section>
+          <section class="footer__column">
+            <h2 class="footer__column-title">SHOP CATEGORY</h2>
+            <nav>
+              <a href="#" class="footer__column-href">Men</a>
+              <a href="#" class="footer__column-href">Women</a>
+              <a href="#" class="footer__column-href">Child</a>
+              <a href="#" class="footer__column-href">Apparel</a>
+              <a href="#" class="footer__column-href">Browse All</a>
+            </nav>
+          </section>
+        </div>
+      </footer>
+  
+      <div class="copyrights">
+        <div class="container">
+          <div class="copyrights__left">
+            &copy; 2017 Brand All Rights Reserved.
+          </div>
+          <nav class="copyrights__right">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </nav>
+        </div>
+      </div>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
